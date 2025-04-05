@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="backdrop" id="backdrop"></div>
+
+      <div class="container">
+        <div class="leftSide">
+          <p>Portfolio</p>
+        </div>
+
+        <div class="rightSide">
+          <a href="#service">Services</a>
+          <a href="#resume">Resume</a>
+          <a href="#work">Works</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      </div>
+
+      <!-- Slide-in Mobile Menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <div class="close-btn" id="close-btn">&times;</div>
+        <a href="#service">Services</a>
+        <a href="#resume">Resume</a>
+        <a href="#work">Works</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- **********HERO SECTION********** -->
+    <div class="heroSection">
+      <img src="assets/burger.png" alt="My picture" />
+      <div class="heroContent">
+        <h3>
+          Building digital products, brands, <span>and experiences.</span>
+        </h3>
+        <p>Hi! I am Tobechukwu - A passionate software developer</p>
+        <!-- From Uiverse.io by gharsh11032000 -->
+        <a href="#service" class="animatedWriting">
+          <button class="animated-button">
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-2"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+            <span class="text">See My Works</span>
+            <span class="circle"></span>
+            <svg
+              viewBox="0 0 24 24"
+              class="arr-1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+              ></path>
+            </svg>
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
